@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
  * ${dataName}服务
  *
  * @author <a href="https://github.com/LLLL1024">程序员兮颜</a>
- * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
+
  */
 public interface ${upperDataKey}Service extends IService<${upperDataKey}> {
 
