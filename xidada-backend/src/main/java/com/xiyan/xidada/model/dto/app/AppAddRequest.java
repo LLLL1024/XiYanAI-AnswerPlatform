@@ -1,6 +1,7 @@
 package com.xiyan.xidada.model.dto.app;
 
 import lombok.Data;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.io.Serializable;
 

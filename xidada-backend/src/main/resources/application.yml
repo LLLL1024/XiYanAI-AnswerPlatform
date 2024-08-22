@@ -21,17 +21,17 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/xidada
+    url: jdbc:mysql://localhost:3306/xidada  # 这个地址上传的时候也要删除
     username: root
-    password: 1234
+    password: 1234  # 这个密码上传的时候也要删除
   # Redis 配置
   # todo 需替换配置，然后取消注释
   redis:
     database: 1
-    host: localhost
+    host: localhost  # 这个地址上传的时候也要删除
     port: 6379
     timeout: 5000
-    password: 123456
+    password: 123456  # 这个密码上传的时候也要删除
   # 文件上传
   servlet:
     multipart:
@@ -74,3 +74,6 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.xiyan.xidada.controller
+# AI 配置  记得上传的时候删除一个key 以免暴露
+ai:
+  apiKey: 822aff82d98cf96d3902823379a5959a.ex9wuZoOrNaHQ7QM
