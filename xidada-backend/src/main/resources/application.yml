@@ -107,4 +107,4 @@ knife4j:
           - com.xiyan.xidada.controller
 # AI 配置  记得上传的时候删除一个key 以免暴露
 ai:
-  apiKey: 822aff82d98cf96d3902823379a5959a.ex9wuZoOrNaHQ7QM
+  apiKey: xxx
